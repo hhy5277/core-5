@@ -154,12 +154,15 @@ class Application extends App {
 		 * Register trashbin service
 		 */
 		$container->registerService('Hooks', function ($c) {
+			$user = $c->getServer()->getUserSession()->getUser();
+			$uid = $user ? $user->getUID() : null;
 			return new Hooks(
 				$c->getServer()->getLazyRootFolder(),
 				$c->getServer()->getUrlGenerator(),
 				$c->getServer()->getEventDispatcher(),
 				$c->getServer()->getShareManager(),
-				$c->query(NotificationPublisher::class)
+				$c->query(NotificationPublisher::class),
+				$uid
 			);
 		});
 
