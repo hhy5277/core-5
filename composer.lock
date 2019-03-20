@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a175e3b98ffe928ac9d56f5a9cc3a324",
+    "content-hash": "16374e0e3879b97b54e3655181083b46",
     "packages": [
         {
             "name": "bantu/ini-get-wrapper",
@@ -982,16 +982,16 @@
         },
         {
             "name": "icewind/streams",
-            "version": "0.5.2",
+            "version": "v0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/icewind1991/Streams.git",
-                "reference": "6bfd2fdbd99319f5e010d0a684409189a562cb1e"
+                "reference": "4db3ed6c366e90b958d00e1d4c6360a9b39b2121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/icewind1991/Streams/zipball/6bfd2fdbd99319f5e010d0a684409189a562cb1e",
-                "reference": "6bfd2fdbd99319f5e010d0a684409189a562cb1e",
+                "url": "https://api.github.com/repos/icewind1991/Streams/zipball/4db3ed6c366e90b958d00e1d4c6360a9b39b2121",
+                "reference": "4db3ed6c366e90b958d00e1d4c6360a9b39b2121",
                 "shasum": ""
             },
             "require": {
@@ -1019,7 +1019,7 @@
                 }
             ],
             "description": "A set of generic stream wrappers",
-            "time": "2016-12-02T14:21:23+00:00"
+            "time": "2019-02-15T12:57:29+00:00"
         },
         {
             "name": "interfasys/lognormalizer",
@@ -4426,12 +4426,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "3521da8036ce31b11490433aaae47f9601774191"
+                "reference": "33bad66e16fa13d87493018fd339eff48d431ad1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3521da8036ce31b11490433aaae47f9601774191",
-                "reference": "3521da8036ce31b11490433aaae47f9601774191",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/33bad66e16fa13d87493018fd339eff48d431ad1",
+                "reference": "33bad66e16fa13d87493018fd339eff48d431ad1",
                 "shasum": ""
             },
             "conflict": {
@@ -4564,7 +4564,7 @@
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "tecnickcom/tcpdf": "<6.2.22",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
+                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
@@ -4622,7 +4622,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-03-12T13:04:55+00:00"
+            "time": "2019-03-19T18:31:23+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -5182,7 +5182,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
